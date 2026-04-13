@@ -1,3 +1,10 @@
+# 1.0.0 (2026-04-13)
+
+
+### Features
+
+* Add testing, update index and readme ([#1](https://github.com/JosephRangel/frontend3-week5-activity/issues/1)) ([079ce63](https://github.com/JosephRangel/frontend3-week5-activity/commit/079ce63037d0cf6c37f0cccc8ff158638253929e))
+
 # [1.1.0](https://github.com/JosephRangel/frontend2-week4-activity/compare/v1.0.0...v1.1.0) (2026-04-11)
 
 
