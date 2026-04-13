@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/JosephRangel/frontend3-week5-activity/compare/v1.0.0...v1.0.1) (2026-04-13)
+
+
+### Bug Fixes
+
+* Update docker repo ([#2](https://github.com/JosephRangel/frontend3-week5-activity/issues/2)) ([1de4098](https://github.com/JosephRangel/frontend3-week5-activity/commit/1de409872b6518a999f8f5ecb9da17ad8d0efad3))
+
 # 1.0.0 (2026-04-13)
 
 
