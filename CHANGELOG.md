@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JosephRangel/frontend3-week5-activity/compare/v1.0.1...v1.1.0) (2026-04-13)
+
+
+### Features
+
+* Add alerts when adding and cleaning cart ([#4](https://github.com/JosephRangel/frontend3-week5-activity/issues/4)) ([354f492](https://github.com/JosephRangel/frontend3-week5-activity/commit/354f492404a5761bab9d57b88f7cf65b06de5729))
+
 ## [1.0.1](https://github.com/JosephRangel/frontend3-week5-activity/compare/v1.0.0...v1.0.1) (2026-04-13)
 
 
