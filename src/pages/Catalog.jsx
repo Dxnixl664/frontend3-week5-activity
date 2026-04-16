@@ -13,9 +13,7 @@ const Catalog = () => {
     const fetchProducts = async () => {
       try {
         // Pausamos la ejecución hasta que FakeStore responda
-        const response = await fetch(
-          'https://dummyjson.com/products?limit=20'
-        );
+        const response = await fetch('https://dummyjson.com/products?limit=20');
 
         // Si el servidor manda un error (ej. 404), lanzamos la excepción
         if (!response.ok) throw new Error('Error al conectar con la tienda');

@@ -19,9 +19,7 @@ const ProductDetails = () => {
     const fetchProduct = async () => {
       try {
         // Inyectamos el ID dinámico en la URL de la API
-        const response = await fetch(
-          `https://dummyjson.com/products/${id}`
-        );
+        const response = await fetch(`https://dummyjson.com/products/${id}`);
         if (!response.ok) throw new Error('Producto no encontrado');
 
         const data = await response.json();
