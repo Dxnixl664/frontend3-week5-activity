@@ -20,7 +20,7 @@ const ProductDetails = () => {
       try {
         // Inyectamos el ID dinámico en la URL de la API
         const response = await fetch(
-          `https://api.escuelajs.co/api/v1/products/${id}`
+          `https://dummyjson.com/products/${id}`
         );
         if (!response.ok) throw new Error('Producto no encontrado');
 
@@ -57,7 +57,7 @@ const ProductDetails = () => {
 
         <div className="details-info">
           <h2>{product.title}</h2>
-          <p className="category-badge">{product.category.name}</p>
+          <p className="category-badge">{product.category}</p>
           <p className="description">{product.description}</p>
           <h3 className="price">${product.price}</h3>
 
