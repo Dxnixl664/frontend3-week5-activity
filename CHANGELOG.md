@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Dxnixl664/frontend3-week5-activity/compare/v1.0.0...v1.0.1) (2026-04-16)
+
+
+### Bug Fixes
+
+* update semantic-release GitHub plugin configuration ([#3](https://github.com/Dxnixl664/frontend3-week5-activity/issues/3)) ([bc9f028](https://github.com/Dxnixl664/frontend3-week5-activity/commit/bc9f028821188718324c6f3b32f19cab35dfd10b))
+
 # 1.0.0 (2026-04-16)
 
 
