@@ -13,16 +13,14 @@ const Catalog = () => {
     const fetchProducts = async () => {
       try {
         // Pausamos la ejecución hasta que FakeStore responda
-        const response = await fetch(
-          'https://api.escuelajs.co/api/v1/products'
-        );
+        const response = await fetch('https://dummyjson.com/products?limit=20');
 
         // Si el servidor manda un error (ej. 404), lanzamos la excepción
         if (!response.ok) throw new Error('Error al conectar con la tienda');
 
-        // Convertimos el texto a un arreglo de objetos JavaScript
+        // DummyJSON envuelve los productos en { products: [...] }
         const data = await response.json();
-        setProducts(data);
+        setProducts(data.products);
       } catch (err) {
         setError(err.message); // Guardamos el texto del error
       } finally {
